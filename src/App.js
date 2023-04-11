@@ -1,30 +1,41 @@
+// Importar el hook useState y los componentes necesarios
 import { useState } from "react";
 import "./App.css";
 import Boton from "./Componentes/Boton/Boton";
 import BotonClear from "./Componentes/BotonClear/BotonClear";
 import Pantalla from "./Componentes/Pantalla/Pantalla";
 import { evaluate } from "mathjs";
+
+// Crear la función App
 function App() {
 
+  // Crear el estado input y la función para actualizarlo
   const [input, setInput] = useState("");
 
-  const agregarInput = (dato) =>{
+  // Crear la función que se encarga de concatenar el valor del botón en el input
+  const agregarInput = (dato) => {
     setInput(input + dato);
   }
-  const clearPantalla = () =>{
+
+  // Crear la función que se encarga de limpiar el estado input  
+  const clearPantalla = () => {
     setInput("");
   }
-  const calcularOperacion = () =>{
+
+  // Crear la función que se encarga de evaluar la operación matemática ingresada en input
+  const calcularOperacion = () => {
     try {
-      if(input){
+      if (input) {
         setInput(evaluate(input));
-      }else{
+      } else {
         alert("No hay números");
       }
     } catch (error) {
       alert("Operación incorrecta...");
     }
   }
+
+  // Retornar la siguiente estructura HTML y JS
   return (
     <div className="App">
       <div className="container_calculadora">
@@ -64,5 +75,5 @@ function App() {
     </div>
   );
 }
-
+// Exportar la función App como componente
 export default App;
