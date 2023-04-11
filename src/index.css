@@ -1,9 +1,16 @@
+
+/* CSS reset */
+/* Estilo base para el documento */
+/* Ajusta el padding, margin y box-sizing a todos los elementos */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Estilos para la etiqueta html */
+/* Estilos para la etiqueta html */
 html{
-  font-size: 16px;
-  font-family: 'Fraunces', serif;
+  font-size: 16px; /* Establece el tamaño de fuente en 16 píxeles */
+  font-family: 'Fraunces', serif; /* Establece la familia de fuentes como 'Fraunces', serif */
 }
