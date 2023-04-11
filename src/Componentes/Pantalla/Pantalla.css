@@ -1,0 +1,14 @@
+.pantalla_cal{
+    background-color: #fb54073e;
+    height: 100%;
+    border-radius: 25px;
+
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
