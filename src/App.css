@@ -1,24 +1,57 @@
+/* 
+Este bloque de código establece el estilo para un contenedor de calculadora. 
+
+La calculadora tendrá un ancho del 100% y una altura igual a la altura de la pantalla. 
+
+Los elementos dentro del contenedor se organizan en una columna.
+
+La fuente se establece en 1.7em y el color de fondo se establece en #1b263b.
+*/
 .container_calculadora{
   width: 100%;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
-
   font-size: 1.7em;
   background-color: #1b263b;
 }
+
+/* 
+
+Este bloque de código establece el estilo para el contenedor de la pantalla de la calculadora. 
+
+La altura del contenedor será de 180px y se expandirá para llenar cualquier espacio vacío.
+
+El padding de 10px agregará espacio alrededor del contenido del contenedor.
+*/
 .container_pantalla{
   height: 180px;
   flex-grow: 1;
   padding: 10px;
 }
+
+/* 
+
+Este bloque de código establece el estilo para el contenedor de los botones de la calculadora. 
+
+El contenedor se expandirá para llenar cualquier espacio vacío y los elementos dentro se organizarán en una columna.
+
+*/
 .container_botones_cal{
   flex-grow: 2;
 
   display: flex;
   flex-direction: column;
 }
+
+/* 
+
+Este bloque de código establece el estilo para cada fila de botones de la calculadora.
+
+Los elementos dentro de la fila se alinearán en el centro y se justificarán en el centro.
+
+La fila se expandirá para llenar cualquier espacio vacío y tendrá un margen superior e inferior de 10px.
+*/
 .fila{
   display: flex;
   align-items: center;
@@ -27,6 +60,11 @@
   
   margin: 10px 0;
 }
+/* 
+Este bloque de código establece el estilo para el contenedor del botón Clear.
+
+El contenedor se expandirá para llenar cualquier espacio vacío y tendrá un padding de 10px.
+*/
 .container_botonClear{
   flex-grow: 1;
   padding: 10px;
