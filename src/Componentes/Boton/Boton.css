@@ -6,7 +6,6 @@
     margin: 0px 10px;
     border-radius: 25px;
     cursor: pointer;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +13,15 @@
     user-select: none;
     font-size: 1.3em;
 }
+/* Cuando el cursor está sobre el botón, el fondo será un verde más oscuro */
 .boton_cal:hover{
     background-color: #00916e;
 }
+/* Cuando el usuario hace click en el botón, éste se reducirá ligeramente en tamaño */
 .boton_cal:active{
     transform: scale(.9, .9);
 }
+/* Los botones que tengan la clase "operador" tendrán un fondo distinto al del resto */
 .boton_cal.operador{
-    background-color: #FF006E;
+    background-color: #ff002b;
 }
