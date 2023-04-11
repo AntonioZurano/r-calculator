@@ -1,7 +1,7 @@
 .boton_cal{
     height: 100%;
     flex-grow: 1;
-    background-color: #3a0ca3;
+    background-color: #00916e;
     color: white;
     margin: 0px 10px;
     border-radius: 25px;
@@ -10,13 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition: .3s ease all;
     user-select: none;
     font-size: 1.3em;
 }
 .boton_cal:hover{
-    background-color: #4361ee;
+    background-color: #00916e;
 }
 .boton_cal:active{
     transform: scale(.9, .9);
