@@ -3,7 +3,6 @@
 
 #Source code of a simple calculator made with React. It has an on-screen keyboard to perform basic calculator operations like - + * / and a key to clear all display content.
 
-# Getting Started with Create React App
 
 ## Available Scripts
 
