@@ -1,6 +1,6 @@
 //importamos React y el archivo de estilos Boton.css.
 import React from "react";
-import "./Boton.css";
+import "./Styles/Boton.css";
 
 //declaramos la función Boton que recibe como parámetros los hijos y la función manejadora de clics.
 function Boton({ children, manejarClic}){

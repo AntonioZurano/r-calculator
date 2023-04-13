@@ -1,5 +1,5 @@
 import React from "react";
-import "./Display.css";
+import "./Styles/Display.css";
 function Display({ children }){
     return(
         <div className="pantalla_cal">

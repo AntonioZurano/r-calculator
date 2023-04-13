@@ -1,6 +1,6 @@
 // Importar el hook useState y los componentes necesarios
 import { useState } from "react";
-import "./App.css";
+import "./Styles/App.css";
 import Boton from "./Componentes/Boton/Boton";
 import BotonClear from "./Componentes/BotonClear/BotonClear";
 import Display from "./Componentes/Display/Display"
