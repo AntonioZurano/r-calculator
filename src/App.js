@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <div className="container_calculadora">
-        <div className="container_Display">
+        <div className="container_display">
           <Display>{input}</Display>
         </div>
         <div className="container_botones_cal">

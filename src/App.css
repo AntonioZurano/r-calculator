@@ -24,7 +24,7 @@ La altura del contenedor será de 180px y se expandirá para llenar cualquier es
 
 El padding de 10px agregará espacio alrededor del contenido del contenedor.
 */
-.container_pantalla{
+.container_display{
   height: 180px;
   flex-grow: 1;
   padding: 10px;
