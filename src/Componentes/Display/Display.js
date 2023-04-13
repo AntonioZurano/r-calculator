@@ -7,4 +7,4 @@ function Display({ children }){
         </div>
     );
 }
-export default Pantalla;
+export default Display;
