@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 // Importamos el archivo CSS correspondiente
+import './Styles/normalize.css';
 import './Styles/index.css';
 
 // Importamos el componente App desde el archivo App.js
