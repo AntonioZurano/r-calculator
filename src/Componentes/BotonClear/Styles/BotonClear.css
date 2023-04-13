@@ -1,25 +1,27 @@
 /* Se establece el color de fondo y la forma redondeada de los bordes */
-background-color: #06dcaa;
-border-radius: 25px;
+.botonClear {
+    background-color: #06dcaa;
+    border-radius: 25px;
 
-/* Se utiliza Flexbox para centrar verticalmente y horizontalmente el contenido */
-display: flex;
-justify-content: center;
-align-items: center;
+    /* Se utiliza Flexbox para centrar verticalmente y horizontalmente el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* Se establece el color del texto, su peso y tamaño */
-color: white;
-font-weight: 700;
-font-size: 1.5em;
-/* Se establece un cursor de tipo "mano" cuando se pase el mouse por encima del botón */
-cursor: pointer;
-/* Se evita que se pueda seleccionar el texto dentro del botón */
-user-select: none;
+    /* Se establece el color del texto, su peso y tamaño */
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    /* Se establece un cursor de tipo "mano" cuando se pase el mouse por encima del botón */
+    cursor: pointer;
+    /* Se evita que se pueda seleccionar el texto dentro del botón */
+    user-select: none;
 
-/* Se define una transición para que los cambios en el botón sean suaves */
-transition: .3s ease all;
+    /* Se define una transición para que los cambios en el botón sean suaves */
+    transition: .3s ease all;
+}
 
 /* Este es el estilo que se aplica cuando se hace click en el botón */
-.botonClear:active{
-    transform: scale(.9,.9);
+.botonClear:active {
+    transform: scale(.9, .9);
 }
