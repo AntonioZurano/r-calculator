@@ -1,6 +1,6 @@
 import React from "react";
-import "./Pantalla.css";
-function Pantalla({ children }){
+import "./Display.css";
+function Display({ children }){
     return(
         <div className="pantalla_cal">
             {children}

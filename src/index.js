@@ -1,4 +1,3 @@
-// Importamos las librerías de React y ReactDOM
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 

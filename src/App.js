@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./App.css";
 import Boton from "./Componentes/Boton/Boton";
 import BotonClear from "./Componentes/BotonClear/BotonClear";
-import Pantalla from "./Componentes/Pantalla/Pantalla";
+import Display from "./Componentes/Display/Display"
 import { evaluate } from "mathjs";
 
 // Crear la función App
@@ -18,7 +18,7 @@ function App() {
   }
 
   // Crear la función que se encarga de limpiar el estado input  
-  const clearPantalla = () => {
+  const clearDisplay = () => {
     setInput("");
   }
 
@@ -39,8 +39,8 @@ function App() {
   return (
     <div className="App">
       <div className="container_calculadora">
-        <div className="container_pantalla">
-          <Pantalla>{input}</Pantalla>
+        <div className="container_Display">
+          <Display>{input}</Display>
         </div>
         <div className="container_botones_cal">
           <div className="fila">
@@ -69,7 +69,7 @@ function App() {
           </div>
         </div>
         <div className="container_botonClear">
-          <BotonClear clear={clearPantalla}>Limpiar</BotonClear>
+          <BotonClear clear={clearDisplay}>Limpiar</BotonClear>
         </div>
       </div>
     </div>
