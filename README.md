@@ -1,4 +1,4 @@
-#Proyect React Calculator r-calculator
+#Proyect React Calculator r-calculator in MAster Full Stack Development (Nuclio Digital School)
 
 
 #Source code of a simple calculator made with React. It has an on-screen keyboard to perform basic calculator operations like - + * / and a key to clear all display content.
